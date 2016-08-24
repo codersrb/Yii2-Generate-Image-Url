@@ -1,6 +1,6 @@
 # YII2 Generate image url form anywhere
 
-> Use the below function to generate image url from anywhere in Yii2 framework
+Use the below function to generate image url from anywhere in Yii2 framework
 ```
     /**
      * Generate Profile Image from usermname string
@@ -18,7 +18,7 @@
         return $varImageUrl;
     }
 ```
-> Param file should contain directory url just like this
+Param file should contain directory url just like this
 
 ```<?php
 return [
