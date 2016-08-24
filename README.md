@@ -18,3 +18,13 @@
         return $varImageUrl;
     }
 ```
+> Param file should contain directory url just like this
+
+```<?php
+return [
+    'profilePath' => '/uploads/profile_images/',
+    'documentPath' => '/uploads/documents/',
+    'mealsPath' => '/uploads/meals/',
+];
+
+```
