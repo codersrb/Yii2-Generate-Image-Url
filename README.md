@@ -14,7 +14,6 @@
         {
             return null;
         }
-
         $varImageUrl = Url::base(true).Yii::$app->params[$type].$imageName;
         return $varImageUrl;
     }
